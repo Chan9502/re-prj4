@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our team</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin:0;
+        padding: 0;
+    }
+    body{
+        background:linear-gradient(#cddc39, #009688);
+    }
+    .row{
+        background: #ffe501;
+        width: 80%;
+        margin: 4% auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .col{
+        flex-basis: 25%;
+        text-align: center;
+    }
+    .col img{
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+    .col img:hover{
+        transform: translateY(-20px);
+        transition: 0.5s;
+    }
+    .col p{
+        margin: 20px 0;
+        font-size: 100%;
+    }
+    .col h3{
+        font-size: 100%;
+    }
+</style>
+<body>
+    <div class="row">
+        <div class="col">
+            <img src="../images/founder1.jpg">
+        </div>
+        <div class="col">
+            <h3>Hazel Laura</h3>
+            <p>Founder</p> 
+        </div>
+        <div class="col">
+            <img src="../images/founder2.jpg">
+        </div>
+        <div class="col">
+            <h3>Martin Lee</h3>
+            <p>Founder</p> 
+        </div>
+        
+        <div class="col">
+            <h3>Paul Owsand</h3>
+            <p>Marketing</p>
+        </div>
+        <div class="col">
+            <img src="../images/marketing.jpg">
+        </div>
+        <div class="col">
+            <h3>Son Mathlen</h3>
+            <p>Tourguide</p> 
+        </div>
+        <div class="col">
+            <img src="../images/tourguide.jpg">
+            
+        </div>
+    </div>
+    
+</body>
+</html>

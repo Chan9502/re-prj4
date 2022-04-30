@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .back{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 9%;
+
+    }
+
+    form{
+        width: 90%;
+        max-width: 600px;
+        align-content: center;
+    }
+    .input-group{
+        margin-bottom: 30px;
+
+    }
+   
+    input, textarea{
+        width: 100%;
+        padding: 10px;
+        outline: 0;
+        border: 1px solid black;
+        color: black
+        background: transparent;
+        font-size: 15px;
+        
+    }
+    button{
+        padding: 10px 10px;
+        outline: none;
+        background: transparent;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    button:hover{
+        background-color: yellowgreen;
+        transition: 0.3s;
+    }
+
+
+</style>
+<body>
+    <div class="back">
+        
+    <form>
+        <!-- <h1>LOGIN</h1> -->
+        <div class="input-group">
+            <input type="text" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="input-group">
+            <input type="number" id="phone" placeholder="Your phone number" required> 
+            
+        </div>
+        <div class="input-group">
+            <input type="email" id="email" placeholder="Email" required>
+        </div>
+        <div class="input-group">
+            <textarea id="message" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit">SUBMIT</button>
+        </div>
+    </form>
+    </div>
+    
+</body>
+</html>
